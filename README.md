@@ -1,2 +1,6 @@
-# bioSite
-Repository for Bellevue's course CSD 340 - Web Development with HTML and CSS - bioSite
+# CSD 340 - Web Development with HTML and CSS
+
+## Contributors
+- Jeremiah Kellam
+- Joseph Issa
+ 
