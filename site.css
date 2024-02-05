@@ -83,7 +83,7 @@ a:visited{
 
 footer {
     background-color: #841bb5; /* Same as header color */
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
