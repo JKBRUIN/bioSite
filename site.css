@@ -81,6 +81,18 @@ a:visited{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    flex: 1;
+    border: 1px solid rgb(175, 138, 5, 1);
+    border-radius: 15px;
+    padding: 5px;
+}
+
 footer {
     background-color: #841bb5; /* Same as header color */
     position: fixed;
