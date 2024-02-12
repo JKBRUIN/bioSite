@@ -105,7 +105,6 @@ a:visited{
 .image-gallery {
     display:block;
     justify-content: space-between;
-    object-fit: contain;
 }
 
 .gallery {
@@ -120,9 +119,6 @@ a:visited{
     height: auto;
 }
 
-.img {
-    width: 100%;
-}
 
 footer {
     background-color: #841bb5; /* Same as header color */
