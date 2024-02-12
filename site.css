@@ -57,7 +57,8 @@ a:visited{
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
+    scroll-padding: 50px;
 }
 
 .card {
@@ -80,10 +81,31 @@ a:visited{
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+/*
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.grid div {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30%;
+}
+
+@media (max-width: 30%) {
+    .image {
+        grid-template-columns: 1fr;
+    }
+}
+*/
 
 .image-gallery {
-    display: flex;
+    display:block;
     justify-content: space-between;
+    object-fit: contain;
 }
 
 .gallery {
@@ -91,6 +113,15 @@ a:visited{
     border: 1px solid rgb(175, 138, 5, 1);
     border-radius: 15px;
     padding: 5px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.img {
+    width: 100%;
 }
 
 footer {
