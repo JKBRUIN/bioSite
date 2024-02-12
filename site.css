@@ -119,15 +119,22 @@ a:visited{
     height: auto;
 }
 
-
 footer {
     background-color: #841bb5; /* Same as header color */
     position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
 }
+footer p1 {
+    color: white;
+    font-weight: 400;
+    float: left;
+    padding-right: 10px;
+    font-style: italic;
+}
 
-footer p {
+footer p2 {
     color: white;
     font-weight: 400;
     float: right;
