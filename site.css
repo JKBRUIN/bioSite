@@ -131,11 +131,8 @@ figure img {
     align-items: center;
 }
 
-figure imgQ {
-    width: 100%;
-    min-width: 500px;
-    align-items: center;
-    justify-content: center;
+#Q {
+    min-width: 100%;
 }
 
 figcaption {
