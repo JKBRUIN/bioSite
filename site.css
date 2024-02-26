@@ -131,6 +131,13 @@ figure img {
     align-items: center;
 }
 
+figure imgQ {
+    width: 100%;
+    min-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
 figcaption {
     font: calibri;
     font-size: medium;
