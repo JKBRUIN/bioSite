@@ -125,6 +125,10 @@ a:visited{
     height: auto;
 }
 
+.centered-figure {
+    text-align: center; /* Center-align the content horizontally */
+  }
+
 figure img {
     width: 100%;
     max-width: 400px;
