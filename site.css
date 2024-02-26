@@ -57,9 +57,9 @@ a:visited{
     flex: 1;
     display: flex;
     flex-direction: column;
-    margin-top: 2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     padding-bottom: 50px;
     scroll-padding: 50px;
     align-items: center;
