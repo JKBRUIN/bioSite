@@ -54,6 +54,9 @@ a:visited{
 }
 
 .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
@@ -103,7 +106,8 @@ a:visited{
 */
 
 .image-gallery {
-    display:block;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: space-between;
 }
 
@@ -117,6 +121,20 @@ a:visited{
 .image {
     width: 100%;
     height: auto;
+}
+
+figure img {
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+}
+
+figcaption {
+    font: calibri;
+    font-size: medium;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
