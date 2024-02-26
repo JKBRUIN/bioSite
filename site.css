@@ -62,6 +62,7 @@ a:visited{
     margin-right: 10%;
     padding-bottom: 50px;
     scroll-padding: 50px;
+    align-items: center;
 }
 
 .card {
@@ -125,7 +126,7 @@ a:visited{
 
 figure img {
     width: 100%;
-    max-width: 1000px;
+    max-width: 500px;
     align-items: center;
 }
 
